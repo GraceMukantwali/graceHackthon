@@ -1,0 +1,37 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title{
+    color:grey;
+    font-size: 20px;
+}
+button {
+  border: none;
+  outline: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: black;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+h2{
+  text-align: center;
+}
